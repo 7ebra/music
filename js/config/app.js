@@ -42,7 +42,9 @@ angular.module('Music', ['restangular', 'gettext']).
 		templateUrl: 'main.html'
 	}).when('/file/:id', {
 		templateUrl: 'main.html'
-	}).otherwise({
+	}).when('/artist/:id', {
+                templateUrl: 'artist.html'
+        }).otherwise({
 		redirectTo: '/'
 	});
 
