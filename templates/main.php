@@ -11,7 +11,7 @@
 \OCP\Util::addStyle('music', 'style');
 ?>
 
-<p>Webhippies rocken</p>
+<p>Webhippies rocken total</p>
 
 <div id="app" ng-app="Music" ng-cloak ng-init="started = false; lang = '<?php p($_['lang']) ?>'">
 
