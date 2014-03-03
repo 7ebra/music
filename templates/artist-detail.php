@@ -4,7 +4,7 @@
   <div class="navbar navbar-default navbar-fixed-top interpret">
     <div class="row">
       <div class="col-xs-4">
-          <a class="btn btn-default navbar-btn btn-info" href="/artists" ng-click="switchAnimationType('animation-goes-right')">
+          <a class="btn btn-default navbar-btn btn-info" ng-click="backto_artist(artist.id)">
             << Interpreten
           </a>
       </div>

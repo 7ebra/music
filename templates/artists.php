@@ -6,7 +6,7 @@
   <div class="navbar navbar-default navbar-fixed-top interpret">
     <div class="row">
       <div class="col-xs-4">
-          <a class="btn btn-default navbar-btn btn-info" href="../files" ng-click="switchAnimationType('animation-goes-right')">
+          <a class="btn btn-default navbar-btn btn-info" ng-click="back_home()">
             << home 
           </a>
       </div>
@@ -33,8 +33,7 @@
  <div class="list-group">
 
   <a ng-repeat="artist in artists | orderBy:'name'" 
-      href='artist/{{artist.id}}' 
-      ng-click="switchAnimationType('animation-goes-left')" 
+      ng-click="goto_artist(artist.id)" 
       class="list-group-item">
     <span class='left'>{{artist.name}}</span>
   </a>
